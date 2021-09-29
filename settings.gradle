@@ -1,0 +1,2 @@
+rootProject.name = "NetworkPaging3"
+include ':app'
