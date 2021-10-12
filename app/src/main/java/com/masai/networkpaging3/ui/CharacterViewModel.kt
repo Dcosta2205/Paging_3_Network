@@ -1,4 +1,4 @@
-package com.masai.paging3.ui
+package com.masai.networkpaging3.ui
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel

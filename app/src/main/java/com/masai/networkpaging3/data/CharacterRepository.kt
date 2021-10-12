@@ -8,7 +8,7 @@ import com.masai.networkpaging3.api.NetworkHelper
 class CharacterRepository  {
 
     /**
-     * From the Paging Source generate a PagedList<CharacterDTO> which is later feeded to
+     * From the Paging Source generate a PagedList<CharacterDTO> which is later fed to
      * PagingAdapter
      */
     fun getSearchResults() =
@@ -17,7 +17,7 @@ class CharacterRepository  {
                 /*
                 Defines the number of items loaded at once from the [PagingSource].
                  */
-                pageSize = 20,
+                pageSize = 2,
                 /*
                  Defines the maximum number of items that may be loaded into [PagingData] before pages should
                  be dropped.
@@ -35,7 +35,7 @@ class CharacterRepository  {
                  E.g., If this value is set to 50, a [PagingData] will attempt to load 50 items in advance of
                  data that's already been accessed.
                  */
-                prefetchDistance = 50,
+//                prefetchDistance = 50,
                 enablePlaceholders = false
 
             ),

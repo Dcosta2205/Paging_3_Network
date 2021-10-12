@@ -6,6 +6,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.masai.networkpaging3.R
+import com.masai.networkpaging3.ui.CharacterAdapter
+import com.masai.networkpaging3.ui.CharacterViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.launch
 
